@@ -4,6 +4,7 @@ using UnityEngine;
 public class NewMonoBehaviourScript : MonoBehaviour
 {
     public float speed = 5;
+    public int facingDirection = 1;
     public Rigidbody2D rb;
     public Animator anim;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
