@@ -13,6 +13,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+
+        rb.linearVelocity = new Vector2(horizontal, vertical);
     }
 }
