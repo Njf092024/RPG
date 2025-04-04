@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class NewMonoBehaviourScript : MonoBehaviour
@@ -17,9 +18,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
-        anim.SetFloat("horizontal", horizontal);
-        anim.SetFloat("vertical", vertical);
+        anim.SetFloat("horizontal", Mathf.Abs(horizontal));
+        anim.SetFloat("vertical", Math.Abs(vertical));
 
         rb.linearVelocity = new Vector2(horizontal, vertical) * speed;
     }
 }
+
