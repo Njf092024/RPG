@@ -1,0 +1,42 @@
+# Ignore Unity-generated folders
+Library/
+Temp/
+Logs/
+Obj/
+UserSettings/
+
+# Ignore build files
+Builds/
+Build/
+*.apk
+*.unitypackage
+
+# Ignore Visual Studio and Rider files
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.tmp
+*.booproj
+*.svd
+
+# Ignore Unity-specific metadata files
+*.userprefs
+*.pidb.meta
+*.sln*
+*.csproj*
+
+# Ignore crashes, logs, and temporary files
+*.stackdump
+*.pid
+*.ncb
+*.pdb
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+
+# Ignore Git settings
+.git/
