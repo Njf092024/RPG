@@ -7,6 +7,7 @@ public class Elevation_Entry : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(collision.gameObject.tag == "Player")
         foreach (Collider2D mountain in mountainColliders)
         {
             mountain.enabled = false;
