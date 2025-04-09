@@ -11,5 +11,6 @@ public class Elevation_Entry : MonoBehaviour
         {
             mountain.enabled = false;
         }
+        collision.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 15;
     }
 }
