@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
-    public float speed = 5;
+    public float speed = 10;
     public int facingDirection = 1;
     public Rigidbody2D rb;
     public Animator anim;
